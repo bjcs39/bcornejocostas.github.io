@@ -17,7 +17,7 @@ body, html {
 
 .container {
     max-width: 800px;
-    text-align: center;
+    text-align: center; /* Center the name text */
     padding: 20px;
 }
 
@@ -29,14 +29,14 @@ body, html {
 
 .profile {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the left */
     margin-bottom: 20px;
 }
 
 /* Styling for the profile picture */
 .profile-pic {
-    width: 150px;
+    width: 100px; /* Smaller size */
     height: auto;
     border-radius: 50%;
     margin-right: 20px;
@@ -44,9 +44,9 @@ body, html {
 
 /* Styling for the introduction text */
 .introduction {
-    font-size: 1.2em;
+    font-size: 1.5em; /* Larger text size for visibility */
     max-width: 400px;
-    text-align: left;
+    text-align: left; /* Align text to the left */
 }
 
 /* Link styling */
