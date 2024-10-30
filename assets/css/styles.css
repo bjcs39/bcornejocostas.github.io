@@ -1,0 +1,67 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center content in the viewport */
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the profile picture */
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Styling for the introduction text */
+.introduction {
+    font-size: 1.2em;
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Link styling */
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #0073e6;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #005bb5;
+}
